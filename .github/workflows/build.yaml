@@ -16,7 +16,7 @@ jobs:
         run: echo Hello, world!
 
   docker:
-    uses: umangcypher-BH/reusable/.github/workflows/reusableworkflow.yaml
+    uses: umangcypher-BH/reusable/.github/workflows/reusableworkflow.yaml@master
     with:
       image_name: my-awesome-app
       tag: $GITHUB_RUN_NUMBER
